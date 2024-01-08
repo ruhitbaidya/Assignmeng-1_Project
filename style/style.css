@@ -6,15 +6,19 @@
     font-family: 'Merriweather', serif;
 }
 
+body{
+    scrollbar-width: none;
+}
 /*common layout */
 .container{
     max-width: 1320px;
     margin:0 auto;
-    border-radius: 10px !important;
+    height:auto;
 }
 .common-margin{
     margin: 120px auto;
 }
+
 /* .container-2{
     padding: 0 399px;
 } */
@@ -29,12 +33,12 @@ font-family: 'Merriweather', serif; */
 
 /* hero section css code */
 .hero-header{
-    width:100%;
     margin-top:50px;
+    width:100%;
     background-image: url("../resources/bannerImage.png");
     background-repeat: no-repeat;
     background-size: cover;
-    border: 5px;
+    border-radius:5px;
 }
 .hero-section h1{
     color: #FFF;
@@ -55,6 +59,7 @@ font-family: 'Merriweather', serif; */
 .bg-color{
     padding:177px 344px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); 
+    border-radius:16px;
 }
 /* end hero section css */
 
@@ -63,7 +68,7 @@ font-family: 'Merriweather', serif; */
     text-align: center;
 }
 .discount-offer h2{
-    color: #F00;
+color: #F00;
 font-family: Inter;
 font-size: 88px;
 font-weight: 700;
@@ -94,6 +99,7 @@ margin-bottom: 16px;
 .bg-con{
     padding:67px 126px;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius:16px;
 }
 .flex-container{
     display: flex;
@@ -209,9 +215,6 @@ line-height: 32px;
    width:100%;
    margin-top:5px;
 }
-.img-header-part{
-    
-}
 .img-text-header-part h2{
     color: #F00;
 font-family: Inter;
@@ -267,7 +270,7 @@ margin-bottom:64px;
     display: flex;
     background-image: url('../resources/Rectangle\ 2.png'), url('../resources/Rectangle\ 1.png');
     background-repeat:no-repeat;
-    background-position: bottom left, top 5px right;
+    background-position: bottom left, top 8px right;
     /* align-items: center; */
     justify-content:start;
 }
