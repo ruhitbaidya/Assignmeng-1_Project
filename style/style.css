@@ -183,6 +183,7 @@ font-family: Merriweather;
 font-size: 48px;
 font-weight: 900;
 text-transform: capitalize;
+margin: 16px 0 26px 0;
 }
 .text-header-part h4{
     color: #F00;
@@ -200,13 +201,16 @@ font-weight: 400;
 line-height: 32px;
 }
 .img-part img{
- 
-}
-.img-header-part{
     height:393.3px;
     width:393.3px;
     border-radius: 50%;
+    padding:40px;
     border: 15px solid #F00;
+   width:100%;
+   margin-top:5px;
+}
+.img-header-part{
+    
 }
 .img-text-header-part h2{
     color: #F00;
@@ -214,14 +218,197 @@ font-family: Inter;
 font-size: 48px;
 margin-bottom:16px;
 font-weight: 700;
+margin: 16px 0 26p
 }
 .img-text-header-part p{
-    color: rgba(7, 2, 17, 0.60);
+color: rgba(7, 2, 17, 0.60);
 font-family: Inter;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
-line-height: 32px; /* 160% */
+line-height: 32px;
 margin-bottom: 43px;
 }
 /* End  comming soon css */
+
+/* holiday section css */
+.holiday-text{
+    text-align: center;
+}
+.holiday-text h4{
+    color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.holiday-text h2{
+    color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+margin:16px 0 26px 0;
+}
+.holiday-text h2 span{
+    color: #F00; 
+}
+.holiday-text p{
+    padding:0 266px;
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+margin-bottom:64px;
+}
+.image-design{
+    display: flex;
+    background-image: url('../resources/Rectangle\ 2.png'), url('../resources/Rectangle\ 1.png');
+    background-repeat:no-repeat;
+    background-position: bottom left, top 5px right;
+    /* align-items: center; */
+    justify-content:start;
+}
+.part-1, .part-2{
+    width:50%;
+}
+.part-2 img{
+    padding:85px 0 0 65px;
+}
+
+/* start portfolio css */
+
+.portfolio-headpart h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.portfolio-headpart h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin:16px 0 22px 0
+}
+.portfolio-headpart p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom:48px;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:20px;
+}
+.project-box>*{
+    width:400.6px;
+    flex: 1 1 1;
+    border-radius: 10px;
+}
+/* End portfolio css */
+
+/* start subscribe css */
+.all-text-input{
+    text-align: center;
+}
+.all-text-input h2{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+margin: 40px 0 22px 0;
+}
+.all-text-input p{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; 
+margin-bottom:48px;
+}
+.all-text-input{
+    padding: 80px 0;
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+}
+
+.form input{
+    width:507px;
+    padding: 25px 30px;
+    color: rgba(7, 2, 17, 0.30);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+border-radius: 50px;
+background: #FFF;
+border:none;
+}
+.form input:focus{
+    outline:none;
+}
+.form button{
+    padding: 24px 56px;
+    border-radius: 0px 50px 50px 0px;
+background: #F00;
+color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+border:none;
+margin:-25px;
+}
+
+/* footer design css */
+
+footer{
+    background: #070211;
+    padding: 120px;
+    color:aliceblue;
+}
+.adderss p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.adders-container, .copyright{
+    display: flex;
+    justify-content: space-between;
+}
+.contact a{
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.solicalmedia{
+    text-align: center;
+    padding:98px 0;
+}
+.solicalmedia a{
+    margin:0 10px;
+}
+.solicalmedia img:hover{
+    rotate: 360deg;
+    transition: 0.5s;
+}
+.copyright p{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
