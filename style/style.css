@@ -9,7 +9,7 @@
 body {
   scrollbar-width: none;
 }
-/*common layout */
+/*common css */
 .container {
   max-width: 1320px;
   margin: 0 auto;
@@ -18,16 +18,13 @@ body {
 .common-margin {
   margin: 120px auto;
 }
+button{
+    cursor: pointer;
+}
 
-/* .container-2{
-    padding: 0 399px;
-} */
 /* font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif; */
 
-/* common color */
-
-/* common btn */
 
 /* hero section css code */
 .hero-header {
