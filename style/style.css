@@ -127,7 +127,10 @@ font-family: 'Merriweather', serif; */
   font-weight: 700;
   text-transform: uppercase;
 }
-
+.night-party-text button:hover{
+  color: #f00;
+  transition: 0.5s;
+}
 /* end night party css */
 /* start date and time css */
 .datetime {
@@ -314,10 +317,10 @@ font-family: 'Merriweather', serif; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 20px;
+  gap: 24px;
 }
 .project-box > * {
-  width: 400.6px;
+  width: 420px;
   flex: 1 1 1;
   border-radius: 10px;
 }
@@ -383,7 +386,7 @@ font-family: 'Merriweather', serif; */
 
 footer {
   background: #070211;
-  padding: 120px;
+  padding: 120px 0;
   color: aliceblue;
 }
 .adderss p {
@@ -415,7 +418,6 @@ footer {
 }
 .solicalmedia {
   text-align: center;
-  padding: 98px 0;
 }
 .solicalmedia a {
   margin: 0 10px;
@@ -429,4 +431,8 @@ footer {
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
+}
+hr{
+  margin:50px 0;
+  border:1px solid rgba(255, 255, 255, 0.15);
 }
